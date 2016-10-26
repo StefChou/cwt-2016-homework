@@ -1,0 +1,172 @@
+.nav {
+	margin: 0px;
+	padding: 0px;
+}
+
+	.nav a {
+		display: block;
+		float: left;
+		width: calc(100% / 5);
+		text-align: center;
+		transition: .5s ease-in-out;
+		text-decoration: none;
+		padding: 10px 0px;
+		text-transform: lowercase;
+		font-size: 20px;
+		font-family: sans-serif;
+		font-weight: bold;
+		background-color: grey;
+		color: white;
+	}
+
+	.nav a:first-of-type {
+		border-radius: 0 0 0 20px;
+	}
+
+	.nav a:last-of-type {
+		border-radius: 0 0 20px 0;
+	}
+
+	.nav a:hover {
+		background-color: #FDF7C2;
+		color: #66BCFC;
+	}
+
+	.nav span {
+		display: block;
+		clear: both;
+	}
+
+
+.nav2 {
+	margin-top: 50px;
+	margin-left: 500px;
+	padding: 0px;
+}
+
+	.nav2 a {
+		display: block;
+		float: left;
+		width: calc(100% / 5);
+		text-align: center;
+    	transition: width .2s, height .2s, transform .2s;
+		text-decoration: none;
+		padding: 10px 0px;
+		text-transform: uppercase;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: black;
+	}
+
+	.nav2 a:hover {
+		color: #F41072;
+    	font-weight: bold;
+    	font-size: 22px;
+	}
+
+	.nav2 span {
+		display: block;
+		clear: both;
+	}
+
+
+.nav3 {
+	margin-top: 50px;
+	padding: 0px;
+}
+
+	.nav3 a {
+		display: block;
+		float: left;
+		width: calc(100% / 5);
+		text-align: center;
+		transition: .5s ease;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: black;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+	.nav3 a:hover {
+		background-color: black;
+		color: white;
+		font-weight: bold;
+	}
+
+	.nav3 span {
+		display: block;
+		clear: both;
+	}
+
+
+.nav4 {
+	margin-top: 50px;
+	padding: 0px;
+}
+
+	.nav4 a {
+		display: block;
+		float: left;
+		width: calc(100% / 5);
+		text-align: center;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: black;
+		width: 200px;
+	    height: 20px;
+	    background: #D1F410;
+	    transition-property: width;
+   		transition-duration: .6s;
+    	transition-timing-function: ease;
+    	transition-delay: .1s;
+	}
+
+	.nav4 a:hover {
+		background-color: black;
+		color: white;
+		font-weight: bold;
+		width: 400px;
+		height: 20px;
+	}
+
+	.nav4 span {
+		display: block;
+		clear: both;
+	}
+
+.nav5 {
+	margin-top: 50px;
+	padding: 0px;
+}
+
+	.nav5 a {
+		display: block;
+		float: left;
+		width: calc(100% / 5);
+		text-align: center;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: black;
+	    transition-property: width;
+   		transition-duration: .4s;
+    	transition-timing-function: ease;
+	}
+
+	.nav5 a:hover {
+		border-bottom: 5px solid;
+		border-color: #02B8EE;
+		color: black;
+		font-weight: bold;
+		width: 200px;
+	}
+
+	.nav5 span {
+		display: block;
+		clear: both;
+	}
