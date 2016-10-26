@@ -1,0 +1,165 @@
+.nav {
+	margin-left: 0px;
+	padding: 0px;
+}
+
+	.nav a {
+		display: block;
+		width: calc(100% / 5);
+		text-align: left;
+		transition: width 1s ease;
+		width: 120px;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 18px;
+		font-family: sans-serif;
+		color: black;
+		border-radius: 10px 10px;
+	}
+
+	.nav a:hover {
+		background-color: #03D1E6;
+		color: #FFFFFF;
+		width: 250px;
+		font-weight: bold;
+		font-size: 22px;
+		padding-left: 10px;
+	}
+
+	.nav span {
+		display: block;
+		clear: both;
+	}
+
+
+.nav2 {
+	margin-left: 0px;
+	padding: 0px;
+}
+
+	.nav2 a {
+		display: block;
+		width: calc(100% / 5);
+		text-align: left;
+		transition: .4s ease-in-out;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 18px;
+		font-family: sans-serif;
+		color: black;
+	}
+
+	.nav2 a:hover {
+		color: #E8055F;
+		font-weight: bolder;
+		font-size: 24px;
+		padding-left: 20px;
+	}
+
+	.nav2 span {
+		display: block;
+		clear: both;
+	}
+
+
+.nav3 {
+	margin-top: 50px;
+	padding: 0px;
+}
+
+	.nav3 a {
+		display: block;
+		width: calc(100% / 5);
+		text-align: center;
+		transition: .5s ease;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: black;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+	.nav3 a:hover {
+		background-color: black;
+		color: white;
+		font-weight: bold;
+		font-size: 22px;
+	}
+
+	.nav3 span {
+		display: block;
+		clear: both;
+	}
+
+
+.nav4 {
+	margin-top: 50px;
+	padding: 0px;
+}
+
+	.nav4 a {
+		display: block;
+		width: calc(100% / 5);
+		text-align: center;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: black;
+		width: 200px;
+	   	height: 15px;
+	    transition-property: width;
+   		transition-duration: .6s;
+    	transition-timing-function: ease;
+    	transition-delay: .1s;
+	}
+
+	.nav4 a:hover {
+		background-color: #D1F410;
+		border-radius: 0px 10px 10px 0px;
+		color: white;
+		font-weight: bold;
+		width: 400px;
+		height: 30px;
+		font-size: 24px;
+	}
+
+	.nav4 span {
+		display: block;
+		clear: both;
+	}
+
+.nav5 {
+	margin-top: 50px;
+	padding: 0px;
+}
+
+	.nav5 a {
+		display: block;
+		width: calc(100% / 5);
+		text-align: left;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: black;
+	    transition-property: width;
+   		transition-duration: .5s;
+    	transition-timing-function: ease-out;
+	}
+
+	.nav5 a:hover {
+		border-bottom: 5px solid;
+		border-color: #02B8EE;
+		color: #02B8EE;
+		font-weight: bolder;
+		width: 150px;
+		padding-left: 60px;
+		font-size: 22px;
+	}
+
+	.nav5 span {
+		display: block;
+		clear: both;
+	}
